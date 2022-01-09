@@ -1,7 +1,12 @@
 function setup() {
-  createCanvas(displayWidth, displayHeight);
+    createCanvas(displayWidth, displayHeight);
+    background('white');
 }
 
 function draw() {
-  background(220);
+    fill('red');
+    beginShape();
+    vertex(20, 20);
+    bezierVertex(100, 20, 100, 100, 20, 100);
+    endShape()
 }
