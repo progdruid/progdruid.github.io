@@ -1,6 +1,7 @@
 function setup() {
     createCanvas(displayWidth, displayHeight);
     background('white');
+    fullscreen(true);
 }
 
 function draw() {
